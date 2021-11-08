@@ -1,0 +1,145 @@
+.singleshopPage{
+    padding: 20px;
+}
+.shoplabel{
+    display: grid;
+    grid-template-columns: 20vw 75vw;
+    background-color: rgba(255, 245, 245, 1);
+    padding: 20px;
+    /* text-align: center; */
+}
+.shoplabel .shopname{
+    font-size: 7vw;
+    font-weight: 600;
+}
+.shoplabel .shopowner{
+    font-size: 2vw;
+    font-weight: 600;
+}
+.shoplabel img{
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+}
+.singleshopPage .catlabels{
+    overflow-x:auto;
+    margin-top: 20px;
+}
+.itemCard img{
+    height: 100px;
+    width:100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    object-fit: contain;
+}
+.items{
+    /* white-space: nowrap; */
+    margin-top: 20px;
+    /* overflow-x: scroll; */
+    padding: 20px;
+}
+.items .itemCard{
+    padding: 10px;
+    width:200px;
+    height:230px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    margin-left: 2.5vw;
+    display: inline-block;
+    margin-right: 2.5vw;
+    box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+    -webkit-filter: drop-shadow(15px 15px 15px rgba(0,0,0,.007));
+    filter: drop-shadow(15px 15px 15px rgba(0,0,0,.007));
+}
+.itemBrand{
+    font-size: 12px;
+    opacity: 0.6;
+}
+.itemName{
+    font-weight: 700;
+}
+.itemWeight,.itemCount{
+    font-size: 13px;
+    opacity: 0.8;
+}
+.itemCat{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.itemprice{
+    font-weight: 900;
+}
+.itemCard .shopimg{
+    text-align: center;
+}
+.itemtotcount{
+    display: flex;
+    align-items: center;
+}
+.itemtot{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.itemtotcount i:first-child{
+    margin-left: 0px;
+}
+.itemtotcount i{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 3px;
+    padding: 1px;
+    cursor: pointer;
+}
+.itemtotcount i:hover{
+    background-color: black;
+    color:white
+}
+.totalitemcost{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.totlab{
+    font-size: 13px;
+    margin-top: 7px;
+    font-weight: 600;
+    opacity: 0.6;
+}
+.stickyprice{
+    position: fixed;
+    bottom:0;
+    background-color: rgba(255, 245, 245, 1);
+    width: calc(100% - 50px);
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: end;
+}
+.main{
+    overflow-x: hidden;
+}
+.stickytotprice{
+    display: flex;
+    justify-content: end;
+
+}
+#checkout{
+    display: none;
+    margin-left: 20px;
+    margin-top: -5px;
+}
+.addresstext{
+    width: calc(100% - 50px);
+    margin-top: 20px;
+    
+}
+.butadd{
+    text-align: end;
+    margin-top: 20px;
+}
+.addcheck i{
+    margin-bottom: 0px !important;
+}

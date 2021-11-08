@@ -1,0 +1,139 @@
+.Navbarbap{
+    width: 100vw;
+}
+.Navbarbap:nth-child(1){
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navlist{
+    display: flex;
+    flex-flow: row;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.navcol{
+    display: flex;
+    flex-flow: column;
+    text-align: initial;
+}
+.navbarin1{
+    display: grid;
+    width: 100vw;
+    grid-template-columns: repeat(3,auto);
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   border-radius: 50%;
+    background-color:#ffffff ;
+    box-shadow: 0 0px 14px rgba(0.25, 0.25, 0.25, 0.25);
+}
+.logotext{
+    color:red;
+   font-size: 35px;
+    font-family: Graduate;
+    font-weight: 900;
+}
+.logoname{
+    color:red;
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: Graduate;
+}
+.slogan{
+    opacity: 0.5;
+    font-size: 15px;
+}
+.navitem{
+    padding-left:30px;
+    font-family: manrope;
+    opacity: 0.5;
+    font-size: 20px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.navitem:hover{
+    opacity: 1 !important;
+}
+.navlistitem{
+    margin-left: auto;
+    text-align: end;
+}
+.search input,textarea{
+    padding: 15px;
+    border-radius: 20px;
+    width:30vw;
+    font-size: 17px;
+    text-align: center;
+    box-shadow: 0 0px 14px rgba(0.25, 0.25, 0.25, 0.25);
+    border:none;
+    border:2px solid rgb(255, 255, 255);
+}
+.search input:focus-visible{
+    outline: none;
+    border:2px solid rgba(0, 0, 0, 0.131);
+}
+.navwrap{
+    margin-top: 0px;
+}
+.navwrap .navcol{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.search i{
+    font-size: 25px;
+    margin-left: -3vw;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.search i:hover{
+    opacity: 1;
+}
+.addmerc{
+    position: fixed;
+    width: calc(90vw - 80px);
+    height: calc(80vh - 80px);
+    background-color: #ffffff;
+    z-index: 999;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    box-shadow: 0 0px 14px rgba(0.25, 0.25, 0.25, 0.25);
+    padding: 40px;
+    display: none;
+}
+.addmerc table{
+    width: 100%;
+}
+.addmerc table td{
+    padding: 20px;
+}
+.addmerc table td input{
+    padding: 10px;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.addmerc button{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(255, 0, 0, 0.837);
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    border:none;
+    cursor: pointer;
+    border: 2px solid white;
+}
+.addmerc button:hover{
+    background-color: white;
+    color:red;
+    border: 2px solid red;
+}

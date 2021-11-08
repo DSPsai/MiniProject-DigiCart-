@@ -1,0 +1,137 @@
+
+.shopmapsingle{
+    background-color: red;
+    color:white;
+    font-weight: 600;
+    border-radius: 10px;
+    height: calc(100% - 80px);
+    margin:7px;
+    width: calc(100% - 15px);
+    /* margin-bottom: 10px; */
+    background-color: red;
+    box-shadow: -10px -6px 5px rgb(0 0 0 / 17%);
+    -webkit-filter: drop-shadow(-10px -6px 5px rgb(0 0 0 / 17%));
+    filter: drop-shadow(-10px -6px 5px rgb(0 0 0 / 17%));
+  }
+  .mapshopName{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 5px;
+  }
+  .cluster-marker {
+    color: #fff;
+    background: #1978c8;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -20px;
+    margin-top: -20px;
+    z-index: 990;
+    position: relative;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 90%);
+    -webkit-filter: drop-shadow(0px 0px 10px rgb(0 0 0 / 90%));
+    filter: drop-shadow(0px 0px 10px rgb(0 0 0 / 90%));
+  }
+  
+  .crime-marker svg{
+  }
+  .crime-marker div{
+    padding: 5px;
+  }
+  
+  .crime-marker img{
+    margin-right: 10px;
+  }
+  .crime-marker {
+    background: none;
+    border: none;
+    width: 200px;
+    text-align: initial;
+    height: 165px;
+    background: url('./marker.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    padding: 0px;
+    margin-top: -150px;
+    margin-left: -90px;
+    cursor: pointer;
+  }
+  .crime-marker img {
+    width: 25px;
+  }
+  .home .row{
+    display: grid;
+    grid-template-columns: calc(60% - 0px) calc(40% - 0px);
+  }
+  .home{
+    padding: 20px;
+  }
+  .catlabels{
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: scroll;
+  }
+  .catlabel{
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    -webkit-filter: drop-shadow(0px 0px 5px rgb(0 0 0 / 30%));
+    filter: drop-shadow(0px 0px 5px rgb(0 0 0 / 30%));
+    cursor :pointer;
+    margin:5px;
+    border-radius: 10px;
+    transition: all 0.5s;
+  }
+  .catlabel:hover{
+    font-weight: 600;
+  }
+  .catlabelactive{
+    background-color: rgba(0, 0, 0, 0.042);
+    font-weight: 600;
+  }
+
+  .shoplistmob{
+    margin: 15px;
+    padding: 25px;
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    -webkit-filter: drop-shadow(0px 0px 5px rgb(0 0 0 / 30%));
+    filter: drop-shadow(0px 0px 5px rgb(0 0 0 / 30%));
+  }
+  .signleshopoflist .shopimg img{
+    width: 50px;
+    height: 50px;
+  }
+  .signleshopoflist .row{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 5px;
+  }
+  .signleshopoflist{
+    cursor: pointer;
+    margin-bottom: 20px;
+    padding: 10px;
+    border:2px solid rgba(247, 88, 88, 0.097);
+  }
+  .signleshopoflist:hover{
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(247, 88, 88, 0.097);
+    -webkit-filter: drop-shadow(0px 0px 5px rgba(247, 88, 88, 0.097));
+    filter: drop-shadow(0px 0px 5px rgba(247, 88, 88, 0.097));
+  }
+  .signleshopoflist .shopname{
+    margin-left: 30px;
+    font-weight: 700;
+  }
+  .signleshopoflist .shopcat{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical
+  }
