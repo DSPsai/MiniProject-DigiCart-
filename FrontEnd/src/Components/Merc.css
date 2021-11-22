@@ -1,0 +1,122 @@
+.Addstickymerc,.deletedialog{
+    position: fixed;
+    overflow-y: scroll;
+    z-index: 999;
+    float: left;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    width:60vw;
+    height: 75vh;
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+    top:0;
+    display: none;
+    padding: 50px;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.371);
+    -webkit-filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.371));
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.371));
+    text-align: center;
+}
+.Addstickymerc::-webkit-scrollbar {
+    width: 15px;
+    background-color: transparent;
+  }
+   
+.Addstickymerc::-webkit-scrollbar-track {
+    background-color: transparent;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+  }
+  .Addstickymerc::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px #b82a2a;
+    background-color: #fff;
+}
+.deletedialog::-webkit-scrollbar {
+    width: 15px;
+    background-color: transparent;
+  }
+   
+.deletedialog::-webkit-scrollbar-track {
+    background-color: transparent;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+  }
+  .deletedialog::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px #b82a2a;
+    background-color: #fff;
+}
+.Addstickymerc table{
+    text-align: initial;
+}
+.Addstickymerc table td{
+    padding: 20px;
+}
+.Addstickymerc table input{
+    padding: 10px;
+    font-size: 15px;
+}
+.Addstickymerc button,.addmercitem button,.deletedialog button,#checkout{
+    background-color: rgba(248, 46, 46, 0.946);
+    color:white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 600;
+    border: 2px solid rgba(248, 46, 46, 0.946);
+    border-radius: 15px;
+    cursor: pointer;
+}
+.Addstickymerc button:hover,.addmercitem button:hover,.deletedialog button:hover,#checkout:hover{
+    background-color: white;
+    color:rgba(248, 46, 46, 0.946);
+}
+.timesadd{
+    text-align: end;
+    font-size: 40px;
+    cursor: pointer;
+}
+.timesadd i:hover{
+    color:red
+}
+.addmercitem{
+    text-align: end;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+.shopitemslabel{
+    margin-top: -30px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.uploading{
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.deletedialog {
+    /* padding-top: 25vh; */
+    display: none;
+    height: 60vh;
+}
+.deletedialog i{
+    margin-bottom: 25vh;
+}
+.deletedialog .buttonsaddmerc{
+    margin-top: 30px;
+    display: flex;
+    justify-content:space-evenly;
+}
+.deletedialog .buttonsaddmerc button:first-child{
+    background-color: white;
+    color:red
+}
+.deletedialog .buttonsaddmerc button:first-child:hover{
+    background-color: red;
+    color:white
+}
